@@ -1,0 +1,1094 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --achtergrond: #0A0A4A;  
+    --headertext: #F2B6EC;
+    --text: ;
+}
+
+body{
+    background-color: var(--achtergrond);
+    overflow-x: hidden;
+}
+
+p, h1, h2, li, a{
+    font-family: nunito;
+    color: var(--headertext);
+}
+
+
+
+hr{
+    overflow-x: hidden;
+}
+
+
+
+/* ***************
+**      nav     **
+*************** */
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+    margin: 1em;
+    font-size: 1.5em;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+
+/* ***************
+**    header    **
+*************** */
+
+
+header{
+   
+    height: 100vh; 
+    position: relative;
+}
+
+header h1{
+    position: absolute;
+    top: 6em;
+    left: 1em;
+    font-size: 4em;
+    color: var(--headertext);
+}
+
+header img{
+    position: absolute;
+    top: 11em;
+    left: 70%;
+    width: 15em;
+}
+
+header hr{
+    background-color: var(--headertext);
+    overflow-x: hidden;
+}
+
+header hr:first-of-type{
+    overflow-x: hidden;
+    position: absolute;
+    top: 33em;
+    border: none;
+    height: 1em;
+    width: 100vw;
+}
+
+header hr:nth-of-type(2){
+    position: absolute;
+    top: 28em;
+    border: none;
+    height: 0.5em;
+    width: 20em;
+    rotate: 90deg;
+}
+
+header hr:nth-of-type(3){
+    position: absolute;
+    top: 23em;
+    left: 2em;
+    border: none;
+    height: 0.4em;
+    width: 30em;
+}
+
+header hr:nth-of-type(4){
+    position: absolute;
+    top: 33em;
+    left: 40em;
+    border: none;
+    height: 0.3em;
+    width: 15em;
+    rotate: 90deg;
+}
+
+header hr:nth-of-type(5){
+    position: absolute;
+    top: 30em;
+    left: 57em;
+    border: none;
+    height: 0.7em;
+    width: 50em;
+    rotate: 90deg;
+}
+
+header hr:nth-of-type(6){
+    position: absolute;
+    top: 9em;
+    left: 57em;
+    border: none;
+    height: 0.3em;
+    width: 30em;
+}
+
+header hr:nth-of-type(7){
+    overflow-x: hidden;
+    position: absolute;
+    top: 38em;
+    left: 70em;
+    border: none;
+    height: 0.5em;
+    width: 25em;
+}
+
+header hr:nth-of-type(8){
+    position: absolute;
+    top: 28em;
+    left: -0.2em;
+    border: none;
+    height: 0.3em;
+    width: 16em;
+    rotate: 90deg;
+}
+
+header hr:nth-of-type(9){
+    position: absolute;
+    top: 7em;
+    left: 66em;
+    border: none;
+    height: 0.2em;
+    width: 20em;
+}
+
+header hr:nth-of-type(10){
+    position: absolute;
+    top: 30em;
+    left: 66em;
+    border: none;
+    height: 0.3em;
+    width: 35em;
+    rotate: 90deg;
+}
+
+
+
+
+/* ***************
+**     main     **
+*************** */
+
+main > p{
+    margin-top: 2em;
+    margin-left: 7em;
+    width: 70em;
+}
+
+
+
+/* ************* */
+/*   tijdlijn    */
+/* ************* */
+
+main section:first-of-type{
+    position: relative;
+    margin-top: 7em;
+    margin-left: 4em;
+}
+
+main section:first-of-type{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+main section:first-of-type hr{
+    width: 74em;
+    height: 0.5em;
+    position: absolute;
+    left: 2.5em;
+    top: 0.4em;
+    background-color: var(--headertext);
+    border-radius: 3em;
+    border: none;
+    overflow-x: hidden;
+}
+
+main section:first-of-type article{
+    width: 10em;
+    margin-left: 2em;
+}
+
+main section:first-of-type article div{
+    width: 1em;
+    height: 1em;
+    border-radius: 30em;
+    background-color: var(--headertext);
+    border-color: black;
+    border: solid 2px;
+}
+
+main section:first-of-type article:nth-of-type(2) img{
+    width: 8em;
+}
+
+main section:first-of-type article:nth-of-type(3) img{
+    width: 4em;
+}
+
+main section:first-of-type article:nth-of-type(4) img{
+    width: 8em;
+}
+
+main section:first-of-type article:nth-of-type(5) img{
+    width: 8em;
+}
+
+main section:first-of-type article:nth-of-type(6) img{
+    width: 4em;
+}
+main section:first-of-type article:nth-of-type(6) p{
+    margin-top: 1em;
+}
+
+
+/* textvlaken */
+
+main section:nth-of-type(2){
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+main section:nth-of-type(2) article:nth-of-type(1){
+    display: none;
+    position: relative;
+}
+
+main section:nth-of-type(2) article:nth-of-type(1) p{
+    position: absolute;
+    top: -10em;
+    left: 1em;
+    background-color:  #5350B0;
+    color: #FAE8DE;
+    width: 15em;
+    height: 2em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+}
+
+
+main section:nth-of-type(2) article:nth-of-type(2){
+    display: none;
+    position: relative;
+}
+
+main section:nth-of-type(2) article:nth-of-type(2) p{
+    position: absolute;
+    top: -12em;
+    left: 15em;
+    background-color:  #5350B0;
+    color: #FAE8DE;
+    width: 15em;
+    height: 4em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+}
+
+main section:nth-of-type(2) article:nth-of-type(3){
+    display: none;
+    position: relative;
+}
+
+main section:nth-of-type(2) article:nth-of-type(3) p{
+    position: absolute;
+    top: -12em;
+    left: 30em;
+    background-color: #5350B0;
+    color: #FAE8DE;
+    width: 13em;
+    height: 4em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+}
+
+main section:nth-of-type(2) article:nth-of-type(4){
+    display: none;
+    position: relative;
+}
+
+main section:nth-of-type(2) article:nth-of-type(4) p{
+    position: absolute;
+    top: -13em;
+    left: 40em;
+    background-color:  #5350B0;
+    color: #FAE8DE;
+    width: 18em;
+    height: 5em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+}
+
+main section:nth-of-type(2) article:nth-of-type(5){
+    display: none;
+    position: relative;
+}
+
+main section:nth-of-type(2) article:nth-of-type(5) p{
+    position: absolute;
+    top: -12em;
+    left: 55em;
+    background-color:  #5350B0;
+    color: #FAE8DE;
+    width: 15em;
+    height: 4em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+}
+
+main section:nth-of-type(2) article:nth-of-type(6){
+    display: none;
+    position: relative;
+}
+
+main section:nth-of-type(2) article:nth-of-type(6) p{
+    position: absolute;
+    top: -13em;
+    left: 65em;
+    background-color:  #5350B0;
+    color: #FAE8DE;
+    width: 15em;
+    height: 5em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+}
+
+main section:nth-of-type(2) article:nth-of-type(7){
+    display: none;
+    position: relative;
+}
+
+main section:nth-of-type(2) article:nth-of-type(7) p{
+    position: absolute;
+    top: -11em;
+    left: 70em;
+    background-color:  #5350B0;
+    color: #FAE8DE;
+    width: 15em;
+    height: 3em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+}
+
+
+/* **************** */
+/*   vaardigheden   */
+/* **************** */
+
+
+
+main section:nth-of-type(3){
+    position: relative;
+    top: 10em;
+    left: 10em;
+    width: 20em;
+}
+
+main section:nth-of-type(3) article:first-of-type{
+    margin: 1em;
+    position: absolute;
+    top: 3em;
+}
+
+main section:nth-of-type(3) article:nth-of-type(2){
+    margin: 1em;
+    position: absolute;
+    top: 3em;
+    left: 15em;
+}
+
+
+main section:nth-of-type(3) ul article li{
+    margin-bottom: 1em;
+    margin-left: 2em;
+    list-style: none;
+}
+
+
+
+main section:nth-of-type(3) article div:first-of-type{
+    border: var(--headertext);
+    border-style: solid;
+    width: 7em;
+    height: 1em;
+    display: block;
+    border-radius: 1em;
+}
+
+
+main section:nth-of-type(3) article:first-of-type li:first-of-type div:nth-of-type(2){
+    width: 6.5em;
+    height: 1.2em;
+    background-color: var(--headertext);
+    border-radius: 1em;
+    position: absolute;
+    top: 2.4em;
+}
+
+main section:nth-of-type(3) article:first-of-type li:nth-of-type(2) div:nth-of-type(2){
+    width: 6em;
+    height: 1.2em;
+    background-color: var(--headertext);
+    border-radius: 1em;
+    position: absolute;
+    top: 5.95em;
+}
+
+main section:nth-of-type(3) article:first-of-type li:nth-of-type(3) div:nth-of-type(2){
+    width: 4em;
+    height: 1.2em;
+    background-color: var(--headertext);
+    border-radius: 1em;
+    position: absolute;
+    top: 9.5em;
+}
+
+main section:nth-of-type(3) article:first-of-type li:nth-of-type(4) div:nth-of-type(2){
+    width: 6em;
+    height: 1.2em;
+    background-color: var(--headertext);
+    border-radius: 1em;
+    position: absolute;
+    top: 13.1em;
+}
+
+main section:nth-of-type(3) article:nth-of-type(2) li:first-of-type div:nth-of-type(2){
+    width: 3.5em;
+    height: 1.2em;
+    background-color: var(--headertext);
+    border-radius: 1em;
+    position: absolute;
+    top: 2.35em;
+}
+
+main section:nth-of-type(3) article:nth-of-type(2) li:nth-of-type(2) div:nth-of-type(2){
+    width: 4.5em;
+    height: 1.2em;
+    background-color: var(--headertext);
+    border-radius: 1em;
+    position: absolute;
+    top: 5.95em;
+}
+
+main section:nth-of-type(3) article:nth-of-type(2) li:nth-of-type(3) div:nth-of-type(2){
+    width: 3.5em;
+    height: 1.2em;
+    background-color: var(--headertext);
+    border-radius: 1em;
+    position: absolute;
+    top: 9.5em;
+} 
+
+main section:nth-of-type(3) article:nth-of-type(2) li:nth-of-type(4) div:nth-of-type(2){
+    width: 7.2em;
+    height: 1.2em;
+    background-color: var(--headertext);
+    border-radius: 1em;
+    position: absolute;
+    top: 13.1em;
+} 
+
+
+
+
+
+
+/* ********** */
+/*   hobby's  */
+/* ********** */
+
+
+main section:nth-of-type(4) article{
+    position: relative;
+    color: var(--headertext);
+    font-size: 3em;
+    left: 16em;
+    top: 5em;
+}
+
+main section:nth-of-type(4) h2{
+    position: absolute;
+    left: 30em;
+    top: 22.4em;
+}
+
+main section:nth-of-type(4) article p:first-of-type{
+    position: absolute;
+    left: 0.3em;
+    top: 0.2em;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+
+
+main section:nth-of-type(4) article p:nth-of-type(2){
+    position: absolute;
+    transform: rotate(-0.25turn);
+    left: 2em;
+    text-decoration: overline;
+    text-decoration-thickness: 5px;
+}
+
+main section:nth-of-type(4) article p:nth-of-type(3){
+    position: absolute;
+    transform: rotate(-0.25turn);
+    top: 3em;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+
+main section:nth-of-type(4) article p:nth-of-type(4){
+    position: absolute;
+    top: 2.5em;
+    left: 3em;
+    text-decoration: overline;
+    text-decoration-thickness: 5px;
+} 
+
+main section:nth-of-type(4) article p:nth-of-type(5){
+    position: absolute;
+    top: 3.5em;
+    left: 3em;
+    text-decoration: overline;
+    text-decoration-thickness: 5px;
+}
+
+
+
+/* ************* */
+/*   projecten   */
+/* ************* */
+
+.projecten{
+    position: relative;
+    top: 2em;
+    left: 7em;
+}
+
+.projecten article img{
+    width: 20em;
+    height: 20em;
+    border: 5px var(--headertext);
+    border-style: solid;
+}
+
+.projecten article:first-of-type a{
+    position: absolute;
+    top: 5em;
+    left: 16em;
+}
+
+.projecten article:nth-of-type(2) a{
+    position: absolute;
+    top: 5em;
+    left: 43em;
+
+}
+
+.projecten article:nth-of-type(3) a{
+    position: absolute;
+    top: 30em;
+    left: 5em;
+
+}
+
+.projecten article:nth-of-type(4) a{
+    position: absolute;
+    top: 30em;
+    left: 55em;
+
+}
+
+.projecten article:nth-of-type(5) a{
+    position: absolute;
+    top: 30em;
+    left: 30em;
+}
+
+
+
+
+/* ************* */
+/*     footer    */
+/* ************* */
+
+
+.contact section{
+    position: relative;
+    left: -50em;
+    top: 5em; 
+}
+
+.contact section h2{
+    margin-left: 1em;
+    padding-top: 5em;
+    margin-bottom: 1em;
+    color: var(--headertext);
+}
+
+.contact section p, footer section a{
+    margin-left: 1em;
+    margin-bottom: 0.2em;
+    color: var(--headertext);
+}
+
+.contact section p{
+    margin-left: 1em;
+}
+
+.contact hr{
+    background-color: var(--headertext);
+    overflow: hidden;
+}
+
+.contact hr:first-of-type{
+    position: absolute;
+    border: none;
+    height: 0.3em;
+    width: 40em;
+    rotate: 90deg;
+    left: -35em;
+    top: 25em;
+}
+
+.contact hr:nth-of-type(2){
+    position: absolute;
+    border: none;
+    height: 0.2em;
+    width: 30em;
+    rotate: 90deg;
+    left: -28em;
+    top: 33em;
+}
+
+.contact hr:nth-of-type(3){
+    position: absolute;
+    border: none;
+    height: 0.1em;
+    width: 20em;
+    top: 30em;
+    left: -30em;
+}
+
+.contact hr:nth-of-type(4){
+    position: absolute;
+    border: none;
+    height: 0.1em;
+    width: 10em;
+    top: 20em;
+    left: -17em;
+}
+
+.contact hr:nth-of-type(5){
+    position: absolute;
+    border: none;
+    height: 0.4em;
+    width: 65em;
+    top: 27em;
+    left: -60em;
+}
+
+.contact hr:nth-of-type(6){
+    position: absolute;
+    border: none;
+    height: 0.2em;
+    width: 10em;
+    top: 30em;
+    left: -24em;
+    rotate: 90deg;
+
+}
+
+
+
+/* ************* */
+/*     hans      */
+/* ************* */
+
+h1{
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+h2{
+    margin-left: 1.4em;
+}
+
+p{
+    margin-left: 2em;
+}
+
+body > section{
+    position: absolute;
+    top: 2em;
+    right: 2em;
+}
+
+.volgende svg{
+    width: 3em;
+    fill: #FAE8DE;
+}
+
+.terug svg{
+    width: 3em;
+    fill: #FAE8DE;
+    transform: rotate(180deg);
+}
+
+.home svg{
+    width: 3em;
+}
+
+.frame-computer{
+    width: 95%;
+    height: 800px;
+    display: block;
+    margin: auto;
+}
+
+
+
+/* ************* */
+/*  vormgeving   */
+/* ************* */
+
+
+
+.bar{
+    width: 500px;
+    height: 1401px;
+    display: block;
+    margin: auto;
+}
+
+.uitleg{
+    margin: 1em;
+    margin-right: 5em;
+    display: block;
+}
+
+
+
+
+
+@font-face {
+    font-family: "nunito";
+    src: url(./fonts/nunito/Nunito-VariableFont_wght.ttf);
+}
+
+
+
+
+  /* Voor schermen kleiner dan 1024px (tablets)  */
+@media screen and (max-width: 1024px) {
+
+    header {
+        height: 40em;
+        text-align: center;
+    }
+
+    header img {
+        position: static;
+        margin-left: 50em;
+        padding-top: 13em;
+        display: block;
+        width: 12em;
+    }
+
+    header h1{
+        margin-top: 4.5em;
+        margin-left: 3em;
+
+        font-size: 3em;
+        top: 3em;
+        left: 0.5em;
+    }
+
+    header hr:first-of-type{
+        width: 75em;
+        overflow-x: hidden;
+    }
+
+    header hr:nth-of-type(5){
+        display: none;
+    }
+
+    header hr:nth-of-type(6){
+        display: none;
+    }
+
+    header hr:nth-of-type(7){
+        display: none;
+    }
+
+    header hr:nth-of-type(9){
+        display: none;
+    }
+
+    header hr:nth-of-type(10){
+        display: none;
+    }
+
+    header hr:nth-of-type(11){
+        display: none;
+    }
+
+    header hr:nth-of-type(12){
+        display: none;
+    }
+
+    header hr:nth-of-type(13){
+        display: none;
+    }
+
+    main {
+        height: 125em;
+        padding: 2em;
+    }
+
+    main section:first-of-type {
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    main section:first-of-type hr{
+        width: 75em;
+    }
+
+
+    main section:nth-of-type(2) article:nth-of-type(2) p {
+        left: 7em;
+    }
+
+    main section:nth-of-type(2) article:nth-of-type(3) p {
+        left: 20em;
+    }
+
+    main section:nth-of-type(2) article:nth-of-type(4) p {
+        left: 30em;
+    }
+
+    main section:nth-of-type(2) article:nth-of-type(5) p {
+        left: 45em;
+    }
+
+    main section:nth-of-type(2) article:nth-of-type(6) p {
+        left: 50em;
+    }
+
+    main section:nth-of-type(3){
+        left: 5em;
+    }
+
+    main section:nth-of-type(4) article{
+        top: 5em;
+        left: 10em;
+    }
+    
+    main section:nth-of-type(4) h2{
+        position: absolute;
+        left: 30em;
+        top: 39em;
+        width: 100%;
+    }
+
+    main section:nth-of-type(5){
+        top: 50em;
+        left: 2em;
+    }
+
+    main section:nth-of-type(5) article img{
+        width: 15em;
+        height: 15em;
+    }
+
+    main section:nth-of-type(5) article:first-of-type a{
+        position: absolute;
+        top: 10em;
+        left: 16em;
+    }
+    
+    main section:nth-of-type(5) article:nth-of-type(2) a{
+        position: absolute;
+        top: 10em;
+        left: 35em;
+    
+    }
+    
+    main section:nth-of-type(5) article:nth-of-type(3) a{
+        position: absolute;
+        top: 30em;
+        left: 5em;
+    
+    }
+    
+    main section:nth-of-type(5) article:nth-of-type(4) a{
+        position: absolute;
+        top: 30em;
+        left: 45em;
+    
+    }
+    
+    main section:nth-of-type(5) article:nth-of-type(5) a{
+        position: absolute;
+        top: 30em;
+        left: 25em;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 30em;
+        text-align: center;
+        height: 40em;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+        margin-top: 6.3em;
+        margin-left: 4em;
+        
+    }
+
+    header img {
+        width: 10em;
+        margin-left: 35em;
+
+    }
+
+    main section:first-of-type {
+        display: flex;
+    }
+
+    main section:first-of-type hr{
+        width: 62em;
+    }
+
+    main section:nth-of-type(2) article:nth-of-type(2) p {
+        left: 5em;
+    }
+
+    main section:nth-of-type(2) article:nth-of-type(3) p {
+        left: 15em;
+    }
+
+    main section:nth-of-type(2) article:nth-of-type(4) p {
+        left: 20em;
+    }
+
+    main section:nth-of-type(2) article:nth-of-type(5) p {
+        left: 30em;
+    }
+
+    main section:nth-of-type(2) article:nth-of-type(6) p {
+        left: 35em;
+    }
+
+
+
+    main section:nth-of-type(5) article:first-of-type a{
+        position: absolute;
+        top: 10em;
+        left: 5em;
+    }
+    
+    main section:nth-of-type(5) article:nth-of-type(2) a{
+        position: absolute;
+        top: 10em;
+        left: 25em;
+    
+    }
+    
+    main section:nth-of-type(5) article:nth-of-type(3) a{
+        position: absolute;
+        top: 30em;
+        left: 5em;
+    
+    }
+    
+    main section:nth-of-type(5) article:nth-of-type(4) a{
+        position: absolute;
+        top: 50em;
+        left: 5em;
+    
+    }
+    
+    main section:nth-of-type(5) article:nth-of-type(5) a{
+        position: absolute;
+        top: 30em;
+        left: 25em;
+    }
+
+   
+
+
+    footer section {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header img {
+        position: static;
+        margin-left: 35em;
+        padding-top: 13em;
+        display: block;
+        width: 12em;
+    }
+
+    header h1{
+        margin-top: 4.5em;
+        margin-left: 3em;
+        font-size: 3em;
+        width: 100%;
+    
+    }
+
+    main section:nth-of-type(3){
+        left: 5em;
+    }
+
+    main section:nth-of-type(4) article{
+        top: 25em;
+        left: 5em;
+    }
+    
+    main section:nth-of-type(4) h2{
+        position: absolute;
+        left: 4.5em;
+        top: 55em;
+        width: 100%;
+    }
+
+    main section:nth-of-type(4) article {
+        font-size: 1.5em;
+    }
+
+    body > section{
+        position: absolute;
+        top: 2em;
+        right: 2em;
+        margin-bottom: 1em;
+    }
+
+    h1{
+        margin-top: 2.5em;
+        
+    }
+    
+}
+
