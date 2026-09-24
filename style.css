@@ -54,7 +54,6 @@ nav a{
 
 
 header{
-   
     height: 100vh; 
     position: relative;
 }
@@ -70,7 +69,7 @@ header h1{
 header img{
     position: absolute;
     top: 11em;
-    left: 60em;
+    right: 10%;
     width: 15em;
 }
 
@@ -172,8 +171,151 @@ header hr:nth-of-type(10){
     height: 0.3em;
     width: 35em;
     rotate: 90deg;
+    
 }
 
+
+/*   @media   */
+
+@media screen and (max-width: 1150px) {
+    header h1{
+        top: 6em;
+        color: green;
+        font-size: 2.5em;
+        left: 3em;
+    }
+
+    header img{
+        top: 27em;
+        left: 35%;
+    }
+
+    header hr:first-of-type{
+        top: 23em;
+        height: 1em;
+        width: 100vw;
+    }
+    
+    header hr:nth-of-type(2){
+        top: 20em;
+        height: 0.5em;
+        width: 20em;
+        rotate: 90deg;
+    }
+    
+    header hr:nth-of-type(3){
+        top: 23em;
+        left: 2em;
+        height: 0.4em;
+        width: 30em;
+    }
+    
+    header hr:nth-of-type(4){
+        top: 25em;
+        left: 40em;
+        height: 0.3em;
+        width: 15em;
+        rotate: 90deg;
+    }
+    
+    header hr:nth-of-type(5){
+        top: 30em;
+        left: 19em;
+        height: 0.7em;
+        width: 50em;
+        rotate: 90deg;
+    }
+    
+    header hr:nth-of-type(6){
+        display: none;
+    }
+    
+    header hr:nth-of-type(7){
+        top: 50em;
+        left: 24em;
+        height: 0.5em;
+        width: 25em;
+    }
+    
+    header hr:nth-of-type(8){
+        top: 20em;
+        left: -0.2em;
+        height: 0.3em;
+        width: 16em;
+        rotate: 90deg;
+    }
+    
+    header hr:nth-of-type(9){
+        display: none;
+    }
+    
+    header hr:nth-of-type(10){
+        display: none;
+        
+    }
+
+}
+
+@media screen and (max-width: 670px) {
+    header h1{
+        color: pink;
+        top: 8em;
+        font-size: 2em;
+        left: 0.5em;
+    }
+
+    header img{
+        top: 27em;
+        left: 25%;
+    }
+
+    header hr:first-of-type{
+        top: 23em;
+        height: 1em;
+        width: 100vw;
+    }
+    
+    
+    header hr:nth-of-type(3){
+        display: none;
+    }
+    
+    header hr:nth-of-type(4){
+        display: none;
+    }
+    
+    header hr:nth-of-type(5){
+        display: none;
+    }
+    
+    header hr:nth-of-type(6){
+        display: none;
+    }
+    
+    header hr:nth-of-type(7){
+        display: none;
+    }
+    
+    
+    header hr:nth-of-type(9){
+        display: none;
+    }
+    
+    header hr:nth-of-type(10){
+        display: none;
+        
+    }
+
+    header hr:nth-of-type(2){
+        left: -6em;
+    }
+
+    header hr:nth-of-type(8){
+        left: -6em;
+    }
+
+
+}
 
 
 
