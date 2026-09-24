@@ -70,7 +70,7 @@ header h1{
 header img{
     position: absolute;
     top: 11em;
-    left: 70%;
+    left: 60em;
     width: 15em;
 }
 
@@ -193,19 +193,19 @@ main > p{
 /*   tijdlijn    */
 /* ************* */
 
-main section:first-of-type{
+.tijdlijn-foto{
     position: relative;
     margin-top: 7em;
     margin-left: 4em;
 }
 
-main section:first-of-type{
+.tijdlijn-foto{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 
-main section:first-of-type hr{
+.tijdlijn-foto hr{
     width: 74em;
     height: 0.5em;
     position: absolute;
@@ -217,12 +217,12 @@ main section:first-of-type hr{
     overflow-x: hidden;
 }
 
-main section:first-of-type article{
+.tijdlijn-foto article{
     width: 10em;
     margin-left: 2em;
 }
 
-main section:first-of-type article div{
+.tijdlijn-foto article div{
     width: 1em;
     height: 1em;
     border-radius: 30em;
@@ -231,43 +231,43 @@ main section:first-of-type article div{
     border: solid 2px;
 }
 
-main section:first-of-type article:nth-of-type(2) img{
+.tijdlijn-foto article:nth-of-type(2) img{
     width: 8em;
 }
 
-main section:first-of-type article:nth-of-type(3) img{
+.tijdlijn-foto article:nth-of-type(3) img{
     width: 4em;
 }
 
-main section:first-of-type article:nth-of-type(4) img{
+.tijdlijn-foto article:nth-of-type(4) img{
     width: 8em;
 }
 
-main section:first-of-type article:nth-of-type(5) img{
+.tijdlijn-foto article:nth-of-type(5) img{
     width: 8em;
 }
 
-main section:first-of-type article:nth-of-type(6) img{
+.tijdlijn-foto article:nth-of-type(6) img{
     width: 4em;
 }
-main section:first-of-type article:nth-of-type(6) p{
+.tijdlijn-foto article:nth-of-type(6) p{
     margin-top: 1em;
 }
 
 
 /* textvlaken */
 
-main section:nth-of-type(2){
+.tijdlijn-text{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-main section:nth-of-type(2) article:nth-of-type(1){
+.tijdlijn-text article:nth-of-type(1){
     display: none;
     position: relative;
 }
 
-main section:nth-of-type(2) article:nth-of-type(1) p{
+.tijdlijn-text article:nth-of-type(1) p{
     position: absolute;
     top: -10em;
     left: 1em;
@@ -280,12 +280,12 @@ main section:nth-of-type(2) article:nth-of-type(1) p{
 }
 
 
-main section:nth-of-type(2) article:nth-of-type(2){
+.tijdlijn-text article:nth-of-type(2){
     display: none;
     position: relative;
 }
 
-main section:nth-of-type(2) article:nth-of-type(2) p{
+.tijdlijn-text article:nth-of-type(2) p{
     position: absolute;
     top: -12em;
     left: 15em;
@@ -297,12 +297,12 @@ main section:nth-of-type(2) article:nth-of-type(2) p{
     padding-top: 0.5em;
 }
 
-main section:nth-of-type(2) article:nth-of-type(3){
+.tijdlijn-text article:nth-of-type(3){
     display: none;
     position: relative;
 }
 
-main section:nth-of-type(2) article:nth-of-type(3) p{
+.tijdlijn-text article:nth-of-type(3) p{
     position: absolute;
     top: -12em;
     left: 30em;
@@ -314,12 +314,12 @@ main section:nth-of-type(2) article:nth-of-type(3) p{
     padding-top: 0.5em;
 }
 
-main section:nth-of-type(2) article:nth-of-type(4){
+.tijdlijn-text article:nth-of-type(4){
     display: none;
     position: relative;
 }
 
-main section:nth-of-type(2) article:nth-of-type(4) p{
+.tijdlijn-text article:nth-of-type(4) p{
     position: absolute;
     top: -13em;
     left: 40em;
@@ -331,12 +331,12 @@ main section:nth-of-type(2) article:nth-of-type(4) p{
     padding-top: 0.5em;
 }
 
-main section:nth-of-type(2) article:nth-of-type(5){
+.tijdlijn-text article:nth-of-type(5){
     display: none;
     position: relative;
 }
 
-main section:nth-of-type(2) article:nth-of-type(5) p{
+.tijdlijn-text article:nth-of-type(5) p{
     position: absolute;
     top: -12em;
     left: 55em;
@@ -348,12 +348,12 @@ main section:nth-of-type(2) article:nth-of-type(5) p{
     padding-top: 0.5em;
 }
 
-main section:nth-of-type(2) article:nth-of-type(6){
+.tijdlijn-text article:nth-of-type(6){
     display: none;
     position: relative;
 }
 
-main section:nth-of-type(2) article:nth-of-type(6) p{
+.tijdlijn-text article:nth-of-type(6) p{
     position: absolute;
     top: -13em;
     left: 65em;
@@ -365,12 +365,12 @@ main section:nth-of-type(2) article:nth-of-type(6) p{
     padding-top: 0.5em;
 }
 
-main section:nth-of-type(2) article:nth-of-type(7){
+.tijdlijn-text article:nth-of-type(7){
     display: none;
     position: relative;
 }
 
-main section:nth-of-type(2) article:nth-of-type(7) p{
+.tijdlijn-text article:nth-of-type(7) p{
     position: absolute;
     top: -11em;
     left: 70em;
@@ -389,20 +389,20 @@ main section:nth-of-type(2) article:nth-of-type(7) p{
 
 
 
-main section:nth-of-type(3){
+.vaardigheden{
     position: relative;
     top: 10em;
     left: 10em;
     width: 20em;
 }
 
-main section:nth-of-type(3) article:first-of-type{
+.vaardigheden article:first-of-type{
     margin: 1em;
     position: absolute;
     top: 3em;
 }
 
-main section:nth-of-type(3) article:nth-of-type(2){
+.vaardigheden article:nth-of-type(2){
     margin: 1em;
     position: absolute;
     top: 3em;
@@ -410,7 +410,7 @@ main section:nth-of-type(3) article:nth-of-type(2){
 }
 
 
-main section:nth-of-type(3) ul article li{
+.vaardigheden ul article li{
     margin-bottom: 1em;
     margin-left: 2em;
     list-style: none;
@@ -418,7 +418,7 @@ main section:nth-of-type(3) ul article li{
 
 
 
-main section:nth-of-type(3) article div:first-of-type{
+.vaardigheden article div:first-of-type{
     border: var(--headertext);
     border-style: solid;
     width: 7em;
@@ -428,7 +428,7 @@ main section:nth-of-type(3) article div:first-of-type{
 }
 
 
-main section:nth-of-type(3) article:first-of-type li:first-of-type div:nth-of-type(2){
+.vaardigheden article:first-of-type li:first-of-type div:nth-of-type(2){
     width: 6.5em;
     height: 1.2em;
     background-color: var(--headertext);
@@ -437,7 +437,7 @@ main section:nth-of-type(3) article:first-of-type li:first-of-type div:nth-of-ty
     top: 2.4em;
 }
 
-main section:nth-of-type(3) article:first-of-type li:nth-of-type(2) div:nth-of-type(2){
+.vaardigheden article:first-of-type li:nth-of-type(2) div:nth-of-type(2){
     width: 6em;
     height: 1.2em;
     background-color: var(--headertext);
@@ -446,7 +446,7 @@ main section:nth-of-type(3) article:first-of-type li:nth-of-type(2) div:nth-of-t
     top: 5.95em;
 }
 
-main section:nth-of-type(3) article:first-of-type li:nth-of-type(3) div:nth-of-type(2){
+.vaardigheden article:first-of-type li:nth-of-type(3) div:nth-of-type(2){
     width: 4em;
     height: 1.2em;
     background-color: var(--headertext);
@@ -455,7 +455,7 @@ main section:nth-of-type(3) article:first-of-type li:nth-of-type(3) div:nth-of-t
     top: 9.5em;
 }
 
-main section:nth-of-type(3) article:first-of-type li:nth-of-type(4) div:nth-of-type(2){
+.vaardigheden article:first-of-type li:nth-of-type(4) div:nth-of-type(2){
     width: 6em;
     height: 1.2em;
     background-color: var(--headertext);
@@ -464,7 +464,7 @@ main section:nth-of-type(3) article:first-of-type li:nth-of-type(4) div:nth-of-t
     top: 13.1em;
 }
 
-main section:nth-of-type(3) article:nth-of-type(2) li:first-of-type div:nth-of-type(2){
+.vaardigheden article:nth-of-type(2) li:first-of-type div:nth-of-type(2){
     width: 3.5em;
     height: 1.2em;
     background-color: var(--headertext);
@@ -473,7 +473,7 @@ main section:nth-of-type(3) article:nth-of-type(2) li:first-of-type div:nth-of-t
     top: 2.35em;
 }
 
-main section:nth-of-type(3) article:nth-of-type(2) li:nth-of-type(2) div:nth-of-type(2){
+.vaardigheden article:nth-of-type(2) li:nth-of-type(2) div:nth-of-type(2){
     width: 4.5em;
     height: 1.2em;
     background-color: var(--headertext);
@@ -482,7 +482,7 @@ main section:nth-of-type(3) article:nth-of-type(2) li:nth-of-type(2) div:nth-of-
     top: 5.95em;
 }
 
-main section:nth-of-type(3) article:nth-of-type(2) li:nth-of-type(3) div:nth-of-type(2){
+.vaardigheden article:nth-of-type(2) li:nth-of-type(3) div:nth-of-type(2){
     width: 3.5em;
     height: 1.2em;
     background-color: var(--headertext);
@@ -491,7 +491,7 @@ main section:nth-of-type(3) article:nth-of-type(2) li:nth-of-type(3) div:nth-of-
     top: 9.5em;
 } 
 
-main section:nth-of-type(3) article:nth-of-type(2) li:nth-of-type(4) div:nth-of-type(2){
+.vaardigheden article:nth-of-type(2) li:nth-of-type(4) div:nth-of-type(2){
     width: 7.2em;
     height: 1.2em;
     background-color: var(--headertext);
@@ -571,53 +571,121 @@ main section:nth-of-type(4) article p:nth-of-type(5){
 /*   projecten   */
 /* ************* */
 
-.projecten{
-    position: relative;
-    top: 2em;
-    left: 7em;
-}
-
-.projecten article img{
+.projecten-grid article img{
     width: 20em;
     height: 20em;
     border: 5px var(--headertext);
     border-style: solid;
 }
 
-.projecten article:first-of-type a{
-    position: absolute;
-    top: 5em;
-    left: 16em;
-}
-
-.projecten article:nth-of-type(2) a{
-    position: absolute;
-    top: 5em;
-    left: 43em;
-
-}
-
-.projecten article:nth-of-type(3) a{
-    position: absolute;
-    top: 30em;
-    left: 5em;
-
-}
-
-.projecten article:nth-of-type(4) a{
-    position: absolute;
-    top: 30em;
-    left: 55em;
-
-}
-
-.projecten article:nth-of-type(5) a{
-    position: absolute;
-    top: 30em;
-    left: 30em;
+.projecten-grid{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    
 }
 
 
+.projecten-grid article:first-of-type{
+    grid-column: 2 / span 2;
+    
+}
+
+.projecten-grid article:nth-of-type(2){
+    grid-column: 4 / span 2;
+}
+
+.projecten-grid article:nth-of-type(3){
+    grid-column: 1 / span 2;
+    grid-row-start: 2;
+}
+
+.projecten-grid article:nth-of-type(4){
+    grid-column: 3 / span 2;
+    grid-row-start: 2;
+}
+
+.projecten-grid article:nth-of-type(5){
+    grid-column: 5 / span 2;
+    grid-row-start: 2;
+}
+
+/*   @media  */
+
+@media screen and (max-width: 1050px){
+    
+.projecten-grid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 5fr 5fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.projecten-grid article:first-of-type{
+    grid-row-start: 1;
+    grid-column-start: 2;
+}
+
+.projecten-grid article:nth-of-type(2) {
+    grid-row-start: 1;
+    grid-column-start: 3;
+}
+
+.projecten-grid article:nth-of-type(3) {
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+.projecten-grid article:nth-of-type(4) {
+    grid-row-start: 2;
+    grid-column-start: 3;
+}
+
+.projecten-grid article:nth-of-type(5) {
+    grid-row-start: 3;
+    grid-column-start: 2;
+}
+        
+}
+
+@media screen and (max-width: 800px){
+    
+    .projecten-grid{
+        display: grid;
+        margin: auto;
+        grid-template-columns: 20em;
+        grid-template-rows: repeat(5 ,1fr);
+        gap: 15px;
+    }
+    
+    .projecten-grid article:first-of-type{
+        grid-row-start: 1;
+        grid-column-start: 1;
+    }
+    
+    .projecten-grid article:nth-of-type(2) {
+        grid-row-start: 2;
+        grid-column-start: 1;
+    }
+    
+    .projecten-grid article:nth-of-type(3) {
+        grid-row-start: 3;
+        grid-column-start: 1;
+    }
+    
+    .projecten-grid article:nth-of-type(4) {
+        grid-row-start: 4;
+        grid-column-start: 1;
+    }
+    
+    .projecten-grid article:nth-of-type(5) {
+        grid-row-start: 5;
+        grid-column-start: 1;
+    }
+            
+    }
 
 
 /* ************* */
@@ -791,304 +859,4 @@ body > section{
 
 
 
-  /* Voor schermen kleiner dan 1024px (tablets)  */
-@media screen and (max-width: 1024px) {
-
-    header {
-        height: 40em;
-        text-align: center;
-    }
-
-    header img {
-        position: static;
-        margin-left: 50em;
-        padding-top: 13em;
-        display: block;
-        width: 12em;
-    }
-
-    header h1{
-        margin-top: 4.5em;
-        margin-left: 3em;
-
-        font-size: 3em;
-        top: 3em;
-        left: 0.5em;
-    }
-
-    header hr:first-of-type{
-        width: 75em;
-        overflow-x: hidden;
-    }
-
-    header hr:nth-of-type(5){
-        display: none;
-    }
-
-    header hr:nth-of-type(6){
-        display: none;
-    }
-
-    header hr:nth-of-type(7){
-        display: none;
-    }
-
-    header hr:nth-of-type(9){
-        display: none;
-    }
-
-    header hr:nth-of-type(10){
-        display: none;
-    }
-
-    header hr:nth-of-type(11){
-        display: none;
-    }
-
-    header hr:nth-of-type(12){
-        display: none;
-    }
-
-    header hr:nth-of-type(13){
-        display: none;
-    }
-
-    main {
-        height: 125em;
-        padding: 2em;
-    }
-
-    main section:first-of-type {
-        left: 0;
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    main section:first-of-type hr{
-        width: 75em;
-    }
-
-
-    main section:nth-of-type(2) article:nth-of-type(2) p {
-        left: 7em;
-    }
-
-    main section:nth-of-type(2) article:nth-of-type(3) p {
-        left: 20em;
-    }
-
-    main section:nth-of-type(2) article:nth-of-type(4) p {
-        left: 30em;
-    }
-
-    main section:nth-of-type(2) article:nth-of-type(5) p {
-        left: 45em;
-    }
-
-    main section:nth-of-type(2) article:nth-of-type(6) p {
-        left: 50em;
-    }
-
-    main section:nth-of-type(3){
-        left: 5em;
-    }
-
-    main section:nth-of-type(4) article{
-        top: 5em;
-        left: 10em;
-    }
-    
-    main section:nth-of-type(4) h2{
-        position: absolute;
-        left: 30em;
-        top: 39em;
-        width: 100%;
-    }
-
-    main section:nth-of-type(5){
-        top: 50em;
-        left: 2em;
-    }
-
-    main section:nth-of-type(5) article img{
-        width: 15em;
-        height: 15em;
-    }
-
-    main section:nth-of-type(5) article:first-of-type a{
-        position: absolute;
-        top: 10em;
-        left: 16em;
-    }
-    
-    main section:nth-of-type(5) article:nth-of-type(2) a{
-        position: absolute;
-        top: 10em;
-        left: 35em;
-    
-    }
-    
-    main section:nth-of-type(5) article:nth-of-type(3) a{
-        position: absolute;
-        top: 30em;
-        left: 5em;
-    
-    }
-    
-    main section:nth-of-type(5) article:nth-of-type(4) a{
-        position: absolute;
-        top: 30em;
-        left: 45em;
-    
-    }
-    
-    main section:nth-of-type(5) article:nth-of-type(5) a{
-        position: absolute;
-        top: 30em;
-        left: 25em;
-    }
-}
-
-
-@media screen and (max-width: 768px) {
-    header {
-        height: 30em;
-        text-align: center;
-        height: 40em;
-    }
-
-    header h1 {
-        font-size: 2.5em;
-        margin-top: 6.3em;
-        margin-left: 4em;
-        
-    }
-
-    header img {
-        width: 10em;
-        margin-left: 35em;
-
-    }
-
-    main section:first-of-type {
-        display: flex;
-    }
-
-    main section:first-of-type hr{
-        width: 62em;
-    }
-
-    main section:nth-of-type(2) article:nth-of-type(2) p {
-        left: 5em;
-    }
-
-    main section:nth-of-type(2) article:nth-of-type(3) p {
-        left: 15em;
-    }
-
-    main section:nth-of-type(2) article:nth-of-type(4) p {
-        left: 20em;
-    }
-
-    main section:nth-of-type(2) article:nth-of-type(5) p {
-        left: 30em;
-    }
-
-    main section:nth-of-type(2) article:nth-of-type(6) p {
-        left: 35em;
-    }
-
-
-
-    main section:nth-of-type(5) article:first-of-type a{
-        position: absolute;
-        top: 10em;
-        left: 5em;
-    }
-    
-    main section:nth-of-type(5) article:nth-of-type(2) a{
-        position: absolute;
-        top: 10em;
-        left: 25em;
-    
-    }
-    
-    main section:nth-of-type(5) article:nth-of-type(3) a{
-        position: absolute;
-        top: 30em;
-        left: 5em;
-    
-    }
-    
-    main section:nth-of-type(5) article:nth-of-type(4) a{
-        position: absolute;
-        top: 50em;
-        left: 5em;
-    
-    }
-    
-    main section:nth-of-type(5) article:nth-of-type(5) a{
-        position: absolute;
-        top: 30em;
-        left: 25em;
-    }
-
-   
-
-
-    footer section {
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    header img {
-        position: static;
-        margin-left: 35em;
-        padding-top: 13em;
-        display: block;
-        width: 12em;
-    }
-
-    header h1{
-        margin-top: 4.5em;
-        margin-left: 3em;
-        font-size: 3em;
-        width: 100%;
-    
-    }
-
-    main section:nth-of-type(3){
-        left: 5em;
-    }
-
-    main section:nth-of-type(4) article{
-        top: 25em;
-        left: 5em;
-    }
-    
-    main section:nth-of-type(4) h2{
-        position: absolute;
-        left: 4.5em;
-        top: 55em;
-        width: 100%;
-    }
-
-    main section:nth-of-type(4) article {
-        font-size: 1.5em;
-    }
-
-    body > section{
-        position: absolute;
-        top: 2em;
-        right: 2em;
-        margin-bottom: 1em;
-    }
-
-    h1{
-        margin-top: 2.5em;
-        
-    }
-    
-}
 
