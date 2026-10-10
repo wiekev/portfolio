@@ -71,11 +71,13 @@ header img{
     top: 11em;
     right: 10%;
     width: 15em;
+    z-index: 10;
 }
 
 header hr{
     background-color: var(--headertext);
     overflow-x: hidden;
+    z-index: 1;
 }
 
 header hr:first-of-type{
@@ -180,7 +182,6 @@ header hr:nth-of-type(10){
 @media screen and (max-width: 1150px) {
     header h1{
         top: 6em;
-        color: green;
         font-size: 2.5em;
         left: 3em;
     }
@@ -258,7 +259,6 @@ header hr:nth-of-type(10){
 
 @media screen and (max-width: 670px) {
     header h1{
-        color: pink;
         top: 8em;
         font-size: 2em;
         left: 0.5em;
@@ -348,7 +348,8 @@ main > p{
 
 
 .tijdlijn-foto hr{
-    width: 74em;
+    width: 90em;
+    margin-right: 2em;
     height: 0.5em;
     position: absolute;
     left: 2.5em;
@@ -378,7 +379,7 @@ main > p{
 }
 
 .tijdlijn-foto article:nth-of-type(3) img{
-    width: 4em;
+    width: 8cap;
 }
 
 .tijdlijn-foto article:nth-of-type(4) img{
@@ -450,7 +451,7 @@ main > p{
     left: 30em;
     background-color: #5350B0;
     color: #FAE8DE;
-    width: 13em;
+    width: 20em;
     height: 4em;
     padding-left: 0.5em;
     padding-top: 0.5em;
@@ -463,12 +464,12 @@ main > p{
 
 .tijdlijn-text article:nth-of-type(4) p{
     position: absolute;
-    top: -13em;
+    top: -12em;
     left: 40em;
     background-color:  #5350B0;
     color: #FAE8DE;
     width: 18em;
-    height: 5em;
+    height: 4em;
     padding-left: 0.5em;
     padding-top: 0.5em;
 }
@@ -484,7 +485,7 @@ main > p{
     left: 55em;
     background-color:  #5350B0;
     color: #FAE8DE;
-    width: 15em;
+    width: 18em;
     height: 4em;
     padding-left: 0.5em;
     padding-top: 0.5em;
